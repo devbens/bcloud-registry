@@ -8,6 +8,6 @@ EXPOSE 3000
 
 WORKDIR /project
 
-COPY package.json yarn.lock ./
+COPY package.json ./
 
 CMD ["yarn", "start"]
